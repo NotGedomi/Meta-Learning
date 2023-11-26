@@ -1,0 +1,8 @@
+Front-End Dev: Se encarga de la parte visual e interactiva.
+
+Back-End Dev: Crear y mantener la funcionalidad.
+
+//////////////////////////////////////////////////////////////////////////////
+
+¿Como funciona Internet?
+
