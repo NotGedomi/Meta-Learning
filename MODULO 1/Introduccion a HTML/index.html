@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!--  Indica qué tipo de documento debe abrir el navegador  -->
+<html lang="es"> <!-- Indica el idioma -->
+<head> <!-- La cabecera indica los metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title> <!-- Título de la pagina -->
+</head>
+<body> <!-- El cuerpo tiene el contenido de la pagina -->
+    <h1>Our Menu</h1>
+    <h2>Falafel</h2>
+    <p>Chickpea, herbs and spices.</p>
+    <img src="MODULO 1/falafel.jpg" width="270" height="165" alt="Falafel"> <!--alt nos permite dar una desc de la imagen(Ayuda a los motores de busqueda y SEO)-->
+    <h2>Pasta Salad</h2>
+    <img src="MODULO 1/pasta.jpg" width="270" height="165" alt="Pasta Salad">
+    <p>Lettuce, vegetables and mozzarella.</p>
+    <a href="location.html">Our Location</a>
+
+    <!--Añadimos estilos a la tabla con la etiqueta style-->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }
+    </style>
+
+    <!--Creamos la tabla-->
+    <table>
+        <tr>
+            <th>Dish</th><!--Define el encabezado de un grupo de celdas-->
+            <th>Price</th>
+        </tr>
+        <tr><!--Fila de celdas-->
+            <td>Falafel</td><!--Etiqueta de datos o celdas-->
+            <td>$10.00</td>
+        </tr>
+        <tr>
+            <td>Pasta Salad</td>
+            <td>$12.00</td>
+        </tr>
+    </table>
+</body>
+</html>

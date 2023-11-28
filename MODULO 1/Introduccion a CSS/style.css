@@ -1,0 +1,12 @@
+/*Para un elemento*/
+h1 { 
+    color: purple;
+}
+
+/*Para un elemento con ID especifico*/
+#header1 {
+    color: green;
+}
+
+
+
