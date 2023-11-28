@@ -71,7 +71,7 @@ Los selectores hijos son más específicos que los selectores descendientes. Só
 }
 ```
 
-## Psudoclases
+## Pseudoclases
 
 Una palabra clave especial denominada "pseudoclase" permite a los desarrolladores seleccionar elementos en función de su estado.
 
