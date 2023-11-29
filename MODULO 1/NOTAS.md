@@ -56,22 +56,16 @@ Es un servicio que nos permite alojar o subir nuestro sitio web o archivos.
 **Tipos de Hosting**:
 
 * **Shared Hosting (Mas economica)**:
-        Alquilas una ubicacion en un servidor, compartes la potencia o banda ancha
-        con otros sitios web, esto puede afectar el rendimiento.
+Alquilas una ubicacion en un servidor, compartes la potencia o banda ancha con otros sitios web, esto puede afectar el rendimiento.
 
 * **Virtual Private Server (Mas cara)**:
-        Alquilas un servidor virtual con recursos dedicados de CPU, memoria y ancho
-        de banda fijos, trabaja en conjunto con otras instancias vps, pero no afecta el
-        rendimiento.
+Alquilas un servidor virtual con recursos dedicados de CPU, memoria y ancho de banda fijos, trabaja en conjunto con otras instancias vps, pero no afecta el rendimiento.
 
 * **Dedicated Hosting (Mas caro que una VPS)**:
-        Similar a VPS pero dedicado solo para ti, no comparte instancias.
+Similar a VPS pero dedicado solo para ti, no comparte instancias.
 
 * **Cloud Hosting**:
-        Almacenamiento en un entorno llamado "la nube", se extiende a traves
-        de multiples servers fisicos y virtuales, si el servidor fisico falla,
-        tu web seguira en linea ya que se pasa a otro servidor, no tiene limitaciones
-        de hardware o banda ancha, pero pagas en funcion del uso de recursos.
+Almacenamiento en un entorno llamado "la nube", se extiende a traves de multiples servers fisicos y virtuales, si el servidor fisico falla, tu web seguira en linea ya que se pasa a otro servidor, no tiene limitaciones de hardware o banda ancha, pero pagas en funcion del uso de recursos.
 
 ## Protocolos de Internet
 
@@ -84,27 +78,25 @@ Actualmente hay 2 estandares (IPV4 con 4 octetos, IPV6 con 8 grupos hexadecimale
 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 
 **TCP (Protocolo de control de transmision)**  
-    Resuelve perdida de packets o caidas, desordenados, corrupcion de packets, pero a costa de
-    un pequeño retraso en el envio.
-    USO: Envio de archivos o textos(No tolera perdida)
+Resuelve perdida de packets o caidas, desordenados, corrupcion de packets, pero a costa de un pequeño retraso en el envio.
+USO: Envio de archivos o textos(No tolera perdida)
 
 **UDP (Protocolo de diagrama de usuarios)**  
-    Resuelve packets corruptos, pero pueden llegar desordenados o no llegar.
-    USO: Llamadas o transmision de video(Tolera perdida)
+Resuelve packets corruptos, pero pueden llegar desordenados o no llegar.
+USO: Llamadas o transmision de video(Tolera perdida)
 
 **UDCH (Protocolo de Configuracion Dinamica del Host)**  
-    Sirve para conectarse a una red, se asigna una IP al ordenador.
+Sirve para conectarse a una red, se asigna una IP al ordenador.
 
 **DNS (Protocolo del sistema de nombres de dominio)**  
-    Sirve para resolver o saber con qué direccion IP relacionada a un servidor debemos conectarnos
+Sirve para resolver o saber con qué direccion IP relacionada a un servidor debemos conectarnos
 
 **IMAP (Protocolo de acceso a mensajes de Internet)**  
-    Su dispositivo necesita una forma de descargar los correos electrónicos y gestionar
-    su buzón en el servidor que los almacena. Este es el propósito del Protocolo de Acceso a Mensajes de Internet o IMAP.
+Su dispositivo necesita una forma de descargar los correos electrónicos y gestionar su buzón en el servidor que los almacena. Este es el propósito del Protocolo de Acceso a Mensajes de Internet o IMAP.
 
 **SMTP (Protocolo simple de transferencia de correo)**  
-    Permite a los clientes de correo electrónico enviar correos electrónicos a través de un servidor SMTP. También puede
-    utilizarlo para recibir correos electrónicos de un cliente de correo electrónico, pero IMAP es más comúnmente utilizado.
+Permite a los clientes de correo electrónico enviar correos electrónicos a través de un servidor SMTP. También puede
+utilizarlo para recibir correos electrónicos de un cliente de correo electrónico, pero IMAP es más comúnmente utilizado.
 
 **POP (Protocolo de oficina de correos)**  
 Es un protocolo más antiguo utilizado para descargar correos electrónicos a un cliente de correo electrónico. La principal diferencia de utilizar POP en lugar de IMAP es que POP borrará los correos electrónicos del servidor una vez que se hayan descargado en su dispositivo local. Aunque ya no se utiliza habitualmente en los clientes de correo electrónico, los desarrolladoressuelen utilizarlo para implementar la automatización del correo electrónico, ya que es un protocolo más sencillo que IMAP.

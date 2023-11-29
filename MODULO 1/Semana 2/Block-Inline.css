@@ -1,0 +1,7 @@
+#inline {
+    display: inline; /*Ajusta en 1 linea el elemento*/
+}
+
+#block{
+    display: block; /*Ajusta en 1 nueva linea el elemento*/
+}
