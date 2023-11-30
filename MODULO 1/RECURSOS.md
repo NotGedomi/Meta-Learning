@@ -69,3 +69,16 @@ Responsive Web Design with HTML5 and CSS por Ben Frain
 
 Temas Bootstrap  
 <https://themes.getbootstrap.com/>
+
+Sitio web oficial de React
+<https://reactjs.org/>
+
+Elegir entre Web Apps tradicionales y Single Page Apps (Microsoft)
+<https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/choose-between-traditional-web-and-single-page-apps>
+
+Código fuente de React (Github)
+<https://github.com/facebook/react>
+
+Introducción a React.js
+El vídeo original grabado en Facebook en 2013.
+<https://youtu.be/XxVg_s8xAms>
